@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Newsletter - Subscribtion</title>
+    <style>
+        /* Reset browser defaults */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body with modern font and background */
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #f6f8fa;
+            color: #24292e;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        /* Main container */
+        .container {
+            max-width: 640px;
+            width: 100%;
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+
+        /* Heading with bold weight, maintaining GitHub-style */
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 600;
+            color: #0366d6;
+            margin-bottom: 1rem;
+        }
+
+        /* Text section, consistent with GitHub's text spacing and sizing */
+        p {
+            font-size: 1.125rem;
+            color: #586069;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Subscription iframe container */
+        .iframe-container {
+            margin: 1.5rem 0;
+            border: 2px solid #e1e4e8;
+            border-radius: 6px;
+            overflow: hidden;
+            max-width: 100%;
+        }
+
+        iframe {
+            width: 100%;
+            height: 320px;
+            border: none;
+        }
+
+        /* Link styling for professional and consistent button */
+        a.cta-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #0366d6;
+            color: #ffffff;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: background-color 0.2s ease;
+        }
+
+        a.cta-button:hover {
+            background-color: #005cc5;
+        }
+
+        /* Media queries for responsive layout */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.875rem;
+            }
+
+            iframe {
+                height: 280px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            iframe {
+                height: 240px;
+            }
+
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <h1>Subscribe to theInsightHub</h1> -->
+
+        <div class="iframe-container">
+            <iframe src="https://embeds.beehiiv.com/e8da8e99-520c-4391-a91d-732ee662cdde" data-test-id="beehiiv-embed"></iframe>
+        </div>
+
+        <p>Crafted with passion by the team at theInsightHub, where ideas truly come to life.</p>
+        <a href="https://insighthub.synergize.co/" target="_blank" class="cta-button">Check it out here</a></div>
+</body>
+</html>
